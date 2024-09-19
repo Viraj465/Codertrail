@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.field {
+  display: inline-flex;
+}
+#submitbtn {
+  margin: 2vh;
+  padding: 10px;
+  border-radius: 5px;
+}
+.field input[type="text"] {
+  width: 500px;
+  border: 2px solid green;
+  border-radius: 2px;
+  padding: 4px;
+  font-size: large;
+}
+.field h3 {
+  padding-right: 10px;
+  margin: auto;
+}

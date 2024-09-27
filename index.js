@@ -38,6 +38,9 @@ function addTask(e) {
     messageElement.textContent = "";
   } else {
     messageElement.textContent = "Please enter a task";
+    setTimeout(() => {
+      messageElement.textContent = "";
+    }, 2000);
   }
 }
 
@@ -58,6 +61,9 @@ function editTask(e) {
       submitBtn.onclick = addTask;
     } else {
       messageElement.textContent = "Please enter a task";
+      setTimeout(() => {
+        messageElement.textContent = "";
+      }, 2000);
     }
   };
 }

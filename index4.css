@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: larger;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.field {
+  display: flex;
+  padding: 10px;
+}
+
+#input-field {
+  width: 250px;
+  height: 15px;
+  font-size: large;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.submitbtn {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(83, 83, 244);
+  cursor: pointer;
+  font-size: large;
+  font-weight: 400;
+}
